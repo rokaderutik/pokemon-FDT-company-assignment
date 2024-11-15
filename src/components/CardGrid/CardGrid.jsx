@@ -60,7 +60,7 @@ const CardGrid = ({ list, pokemonStartNo }) => {
                         <Card 
                             key={item.name}
                             name={item.name}
-                            pokemonNo={pokemonStartNo + ind}
+                            pokemonNo={pokemonStartNo + ind + 1}
                             ref={ind === 0 ? cardRef : null}
                             isOddRow={Math.floor(ind/columnCount) % 2 === 0 ? false : true}
                         />
