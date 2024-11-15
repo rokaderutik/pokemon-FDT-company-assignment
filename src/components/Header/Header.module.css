@@ -1,0 +1,21 @@
+.header {
+    background-color: #520FB7;
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 29px 32px;
+    font-family: Figtree;
+    font-size: 32px;
+    font-weight: 700;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 400px) {
+    .header {
+        padding: 16px 22px;
+        font-size: 24px;
+        justify-content: start;
+    }
+}

@@ -1,0 +1,10 @@
+.card_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); /* Dynamic columns based on available space */
+    /* minimun width of column is 160px and max is 1fr */
+    row-gap: 22px;
+    column-gap: 32px;
+    padding: 32px;
+    box-sizing: border-box;
+    min-height: 85vh;
+}
